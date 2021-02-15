@@ -17,6 +17,7 @@
         {% endfor %}
         <input type="submit" value="Vote">
     </form>
+    <a href="{% url 'polls:index' %}">Return Home</a>
     <!-- <ul>
         {% for choice in question.choice_set.all %}
         <li>{{ choice.choice_text }}</li>
